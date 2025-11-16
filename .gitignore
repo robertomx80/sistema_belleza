@@ -1,6 +1,11 @@
 # compiled output
 /dist
 /node_modules
+/backend/dist
+/backend/node_modules
+/frontend/dist
+/frontend/node_modules
+/frontend/build
 
 # Logs
 logs
@@ -36,6 +41,8 @@ lerna-debug.log*
 .env
 .env.local
 .env.*.local
+/backend/.env
+/frontend/.env
 
 # Prisma
-prisma/migrations/
+/backend/prisma/migrations/
